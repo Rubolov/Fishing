@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980811EE29532A7D00AAFACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980811ED29532A7D00AAFACF /* AppDelegate.swift */; };
+		980811F029532A7D00AAFACF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980811EF29532A7D00AAFACF /* SceneDelegate.swift */; };
+		980811F229532A7D00AAFACF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980811F129532A7D00AAFACF /* ViewController.swift */; };
+		980811F729532A7E00AAFACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980811F629532A7E00AAFACF /* Assets.xcassets */; };
+		980811FA29532A7E00AAFACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980811F829532A7E00AAFACF /* LaunchScreen.storyboard */; };
+		980812022953404F00AAFACF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980812012953404F00AAFACF /* SecondViewController.swift */; };
+		981F5587297EF88C00E7A666 /* zvukBanki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 981F5586297EF88C00E7A666 /* zvukBanki.mp3 */; };
+		98471217295B188A002F9E15 /* FishViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98471216295B188A002F9E15 /* FishViewControllerTwo.swift */; };
+		9849D5D72959DB0D00D7C7E3 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849D5D62959DB0D00D7C7E3 /* FourViewController.swift */; };
+		9849D5D92959DB4400D7C7E3 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849D5D82959DB4400D7C7E3 /* FiveViewController.swift */; };
+		9860F08F295895E10053E830 /* GalleryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860F08E295895E10053E830 /* GalleryCollectionView.swift */; };
+		9860F093295896C90053E830 /* FishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860F092295896C90053E830 /* FishModel.swift */; };
+		9860F0982958A42A0053E830 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9860F0972958A42A0053E830 /* GalleryCollectionViewCell.swift */; };
+		986BEC4D295A392C00EB3368 /* FishModelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BEC4C295A392C00EB3368 /* FishModelTwo.swift */; };
+		986BEC52295A3A0E00EB3368 /* GalleryCollectionViewCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BEC51295A3A0E00EB3368 /* GalleryCollectionViewCellTwo.swift */; };
+		986BEC54295A3A9A00EB3368 /* GalleryCollectionViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BEC53295A3A9A00EB3368 /* GalleryCollectionViewTwo.swift */; };
+		986BEC56295A53A100EB3368 /* FishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BEC55295A53A100EB3368 /* FishViewController.swift */; };
+		9873F6CB2955CCB700FA2DE5 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9873F6CA2955CCB700FA2DE5 /* ThirdViewController.swift */; };
+		98BB85292967497700699C94 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BB85282967497700699C94 /* Game.swift */; };
+		98BB85342967695300699C94 /* zvukBumaga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB85332967695300699C94 /* zvukBumaga.mp3 */; };
+		98BB85362967697800699C94 /* zvukError.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB85352967697800699C94 /* zvukError.mp3 */; };
+		98BB85382967698100699C94 /* zvukFrogs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB85372967698100699C94 /* zvukFrogs.mp3 */; };
+		98BB853A2967698B00699C94 /* zvukLes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB85392967698B00699C94 /* zvukLes.mp3 */; };
+		98BB853C2967699200699C94 /* zvukShagov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB853B2967699200699C94 /* zvukShagov.mp3 */; };
+		98BB853E2967699B00699C94 /* zvukSirena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB853D2967699B00699C94 /* zvukSirena.mp3 */; };
+		98BB8540296769A300699C94 /* zvukStart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 98BB853F296769A300699C94 /* zvukStart.mp3 */; };
+		98BB8542296769EC00699C94 /* RubikBubbles-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98BB8541296769EC00699C94 /* RubikBubbles-Regular.ttf */; };
+		98BB8544296769F600699C94 /* EastSeaDokdo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98BB8543296769F600699C94 /* EastSeaDokdo-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		980811EA29532A7D00AAFACF /* CatchTheFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		980811ED29532A7D00AAFACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		980811EF29532A7D00AAFACF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		980811F129532A7D00AAFACF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		980811F629532A7E00AAFACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		980811F929532A7E00AAFACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		980811FB29532A7E00AAFACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980812012953404F00AAFACF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		981F5586297EF88C00E7A666 /* zvukBanki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukBanki.mp3; sourceTree = "<group>"; };
+		98471216295B188A002F9E15 /* FishViewControllerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewControllerTwo.swift; sourceTree = "<group>"; };
+		9849D5D62959DB0D00D7C7E3 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		9849D5D82959DB4400D7C7E3 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		9860F08E295895E10053E830 /* GalleryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionView.swift; sourceTree = "<group>"; };
+		9860F092295896C90053E830 /* FishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishModel.swift; sourceTree = "<group>"; };
+		9860F0972958A42A0053E830 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GalleryCollectionViewCell.swift; path = ../../GalleryCollectionViewCell.swift; sourceTree = "<group>"; usesTabs = 0; };
+		986BEC4C295A392C00EB3368 /* FishModelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishModelTwo.swift; sourceTree = "<group>"; };
+		986BEC51295A3A0E00EB3368 /* GalleryCollectionViewCellTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCellTwo.swift; sourceTree = "<group>"; };
+		986BEC53295A3A9A00EB3368 /* GalleryCollectionViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewTwo.swift; sourceTree = "<group>"; };
+		986BEC55295A53A100EB3368 /* FishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewController.swift; sourceTree = "<group>"; };
+		9873F6CA2955CCB700FA2DE5 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		98BB85282967497700699C94 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		98BB85332967695300699C94 /* zvukBumaga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukBumaga.mp3; sourceTree = "<group>"; };
+		98BB85352967697800699C94 /* zvukError.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukError.mp3; sourceTree = "<group>"; };
+		98BB85372967698100699C94 /* zvukFrogs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukFrogs.mp3; sourceTree = "<group>"; };
+		98BB85392967698B00699C94 /* zvukLes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukLes.mp3; sourceTree = "<group>"; };
+		98BB853B2967699200699C94 /* zvukShagov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukShagov.mp3; sourceTree = "<group>"; };
+		98BB853D2967699B00699C94 /* zvukSirena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukSirena.mp3; sourceTree = "<group>"; };
+		98BB853F296769A300699C94 /* zvukStart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zvukStart.mp3; sourceTree = "<group>"; };
+		98BB8541296769EC00699C94 /* RubikBubbles-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikBubbles-Regular.ttf"; sourceTree = "<group>"; };
+		98BB8543296769F600699C94 /* EastSeaDokdo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EastSeaDokdo-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		980811E729532A7D00AAFACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		980811E129532A7D00AAFACF = {
+			isa = PBXGroup;
+			children = (
+				980811EC29532A7D00AAFACF /* CatchTheFish */,
+				980811EB29532A7D00AAFACF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		980811EB29532A7D00AAFACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				980811EA29532A7D00AAFACF /* CatchTheFish.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		980811EC29532A7D00AAFACF /* CatchTheFish */ = {
+			isa = PBXGroup;
+			children = (
+				98BB852E29675E5F00699C94 /* Configuration */,
+				98BB85322967661D00699C94 /* Game Data */,
+				98BB852C29675D8C00699C94 /* Presentation */,
+				9860F094295899C80053E830 /* ScrollToSecondViewController */,
+				986BEC4E295A399400EB3368 /* ScrollToThirdViewController */,
+				98BB852F29675F8200699C94 /* Resourse */,
+				98BB852D29675DF400699C94 /* Aplication */,
+			);
+			path = CatchTheFish;
+			sourceTree = "<group>";
+		};
+		9860F094295899C80053E830 /* ScrollToSecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9860F08E295895E10053E830 /* GalleryCollectionView.swift */,
+				9860F0972958A42A0053E830 /* GalleryCollectionViewCell.swift */,
+				9860F092295896C90053E830 /* FishModel.swift */,
+				986BEC55295A53A100EB3368 /* FishViewController.swift */,
+			);
+			path = ScrollToSecondViewController;
+			sourceTree = "<group>";
+		};
+		986BEC4E295A399400EB3368 /* ScrollToThirdViewController */ = {
+			isa = PBXGroup;
+			children = (
+				986BEC53295A3A9A00EB3368 /* GalleryCollectionViewTwo.swift */,
+				986BEC51295A3A0E00EB3368 /* GalleryCollectionViewCellTwo.swift */,
+				986BEC4C295A392C00EB3368 /* FishModelTwo.swift */,
+				98471216295B188A002F9E15 /* FishViewControllerTwo.swift */,
+			);
+			path = ScrollToThirdViewController;
+			sourceTree = "<group>";
+		};
+		98AA00D82965891E009DB10E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				98BB8543296769F600699C94 /* EastSeaDokdo-Regular.ttf */,
+				98BB8541296769EC00699C94 /* RubikBubbles-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		98AA00E42965B35B009DB10E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				98BB853F296769A300699C94 /* zvukStart.mp3 */,
+				981F5586297EF88C00E7A666 /* zvukBanki.mp3 */,
+				98BB853D2967699B00699C94 /* zvukSirena.mp3 */,
+				98BB853B2967699200699C94 /* zvukShagov.mp3 */,
+				98BB85392967698B00699C94 /* zvukLes.mp3 */,
+				98BB85372967698100699C94 /* zvukFrogs.mp3 */,
+				98BB85352967697800699C94 /* zvukError.mp3 */,
+				98BB85332967695300699C94 /* zvukBumaga.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		98BB852C29675D8C00699C94 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				980811F129532A7D00AAFACF /* ViewController.swift */,
+				980812012953404F00AAFACF /* SecondViewController.swift */,
+				9873F6CA2955CCB700FA2DE5 /* ThirdViewController.swift */,
+				9849D5D62959DB0D00D7C7E3 /* FourViewController.swift */,
+				9849D5D82959DB4400D7C7E3 /* FiveViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		98BB852D29675DF400699C94 /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
+				980811EF29532A7D00AAFACF /* SceneDelegate.swift */,
+				980811ED29532A7D00AAFACF /* AppDelegate.swift */,
+				980811F829532A7E00AAFACF /* LaunchScreen.storyboard */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		98BB852E29675E5F00699C94 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				980811FB29532A7E00AAFACF /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		98BB852F29675F8200699C94 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				98AA00D82965891E009DB10E /* Fonts */,
+				98AA00E42965B35B009DB10E /* Sounds */,
+				980811F629532A7E00AAFACF /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		98BB85322967661D00699C94 /* Game Data */ = {
+			isa = PBXGroup;
+			children = (
+				98BB85282967497700699C94 /* Game.swift */,
+			);
+			path = "Game Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		980811E929532A7D00AAFACF /* CatchTheFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980811FE29532A7E00AAFACF /* Build configuration list for PBXNativeTarget "CatchTheFish" */;
+			buildPhases = (
+				980811E629532A7D00AAFACF /* Sources */,
+				980811E729532A7D00AAFACF /* Frameworks */,
+				980811E829532A7D00AAFACF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatchTheFish;
+			productName = CatchTheFish;
+			productReference = 980811EA29532A7D00AAFACF /* CatchTheFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		980811E229532A7D00AAFACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					980811E929532A7D00AAFACF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 980811E529532A7D00AAFACF /* Build configuration list for PBXProject "CatchTheFish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 980811E129532A7D00AAFACF;
+			productRefGroup = 980811EB29532A7D00AAFACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				980811E929532A7D00AAFACF /* CatchTheFish */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		980811E829532A7D00AAFACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				981F5587297EF88C00E7A666 /* zvukBanki.mp3 in Resources */,
+				98BB8544296769F600699C94 /* EastSeaDokdo-Regular.ttf in Resources */,
+				980811FA29532A7E00AAFACF /* LaunchScreen.storyboard in Resources */,
+				98BB85362967697800699C94 /* zvukError.mp3 in Resources */,
+				98BB85342967695300699C94 /* zvukBumaga.mp3 in Resources */,
+				98BB8542296769EC00699C94 /* RubikBubbles-Regular.ttf in Resources */,
+				98BB853E2967699B00699C94 /* zvukSirena.mp3 in Resources */,
+				98BB853C2967699200699C94 /* zvukShagov.mp3 in Resources */,
+				98BB8540296769A300699C94 /* zvukStart.mp3 in Resources */,
+				98BB853A2967698B00699C94 /* zvukLes.mp3 in Resources */,
+				98BB85382967698100699C94 /* zvukFrogs.mp3 in Resources */,
+				980811F729532A7E00AAFACF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		980811E629532A7D00AAFACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9849D5D92959DB4400D7C7E3 /* FiveViewController.swift in Sources */,
+				986BEC54295A3A9A00EB3368 /* GalleryCollectionViewTwo.swift in Sources */,
+				980812022953404F00AAFACF /* SecondViewController.swift in Sources */,
+				980811F229532A7D00AAFACF /* ViewController.swift in Sources */,
+				986BEC56295A53A100EB3368 /* FishViewController.swift in Sources */,
+				9873F6CB2955CCB700FA2DE5 /* ThirdViewController.swift in Sources */,
+				986BEC4D295A392C00EB3368 /* FishModelTwo.swift in Sources */,
+				9860F08F295895E10053E830 /* GalleryCollectionView.swift in Sources */,
+				980811EE29532A7D00AAFACF /* AppDelegate.swift in Sources */,
+				986BEC52295A3A0E00EB3368 /* GalleryCollectionViewCellTwo.swift in Sources */,
+				98471217295B188A002F9E15 /* FishViewControllerTwo.swift in Sources */,
+				9860F093295896C90053E830 /* FishModel.swift in Sources */,
+				9860F0982958A42A0053E830 /* GalleryCollectionViewCell.swift in Sources */,
+				98BB85292967497700699C94 /* Game.swift in Sources */,
+				980811F029532A7D00AAFACF /* SceneDelegate.swift in Sources */,
+				9849D5D72959DB0D00D7C7E3 /* FourViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		980811F829532A7E00AAFACF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				980811F929532A7E00AAFACF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		980811FC29532A7E00AAFACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		980811FD29532A7E00AAFACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		980811FF29532A7E00AAFACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheFish/Configuration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rubolov.CatchTheFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9808120029532A7E00AAFACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CatchTheFish/Configuration/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Rubolov.CatchTheFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		980811E529532A7D00AAFACF /* Build configuration list for PBXProject "CatchTheFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980811FC29532A7E00AAFACF /* Debug */,
+				980811FD29532A7E00AAFACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980811FE29532A7E00AAFACF /* Build configuration list for PBXNativeTarget "CatchTheFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980811FF29532A7E00AAFACF /* Debug */,
+				9808120029532A7E00AAFACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 980811E229532A7D00AAFACF /* Project object */;
+}
